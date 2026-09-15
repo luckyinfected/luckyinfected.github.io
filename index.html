@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#130d0b">
+  <title>lucky</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="particles"></canvas>
+
+  <main class="page">
+    <article class="profile-card">
+      <section class="hero">
+        <div class="banner-stage">
+          <img id="banner" class="banner" src="banner.gif" alt="">
+        </div>
+        <div class="banner-overlay"></div>
+
+        <div class="avatar-wrap">
+          <img id="avatar" class="avatar" src="avatar.jpg" alt="Avatar">
+          <span class="dnd-status" title="Não perturbe">
+            <span></span>
+          </span>
+        </div>
+      </section>
+
+      <section class="content">
+        <div class="heading">
+          <div>
+            <div class="name-line">
+              <h1 id="name">lucky</h1>
+              <span id="domain-pill" class="domain-pill">infblox.com.br</span>
+            </div>
+            <p id="username" class="username">@lucky</p>
+          </div>
+
+          <button id="copy-profile" class="copy-profile">copiar perfil</button>
+        </div>
+
+        <div id="badges" class="badges"></div>
+        <section class="info-card">
+          <span class="section-title">bio</span>
+          <strong id="bio-title">lucky, its me</strong>
+          <p id="bio-text">algumas coisas não precisam de explicação.</p>
+        </section>
+
+        <section class="links-section">
+          <div class="section-top">
+            <span class="section-title">links</span>
+          </div>
+          <div id="links" class="links"></div>
+        </section>
+
+        <section class="connections-card">
+          <div>
+            <span class="section-title">conexões</span>
+            <div id="connections" class="connections"></div>
+          </div>
+
+          <div class="stats">
+            <div class="stat">
+              <span>status</span>
+              <strong>não perturbe</strong>
+            </div>
+            <div class="stat">
+              <span>visitas</span>
+              <strong id="views">1</strong>
+            </div>
+          </div>
+        </section>
+        <section class="spotify-card">
+          <div class="spotify-card-head">
+            <img src="spotify.svg" alt="Spotify">
+            <div>
+              <span class="section-title">música</span>
+              <strong>Love Me Not · Ravyn Lenae</strong>
+            </div>
+          </div>
+          <div id="spotify-embed" class="spotify-embed"></div>
+        </section>
+        <footer>
+          <span id="footer-name">lucky</span>
+          <span>•</span>
+          <span id="year"></span>
+        </footer>
+      </section>
+    </article>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
