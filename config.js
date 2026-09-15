@@ -90,14 +90,14 @@ window.BIO_CONFIG = {
     },
     {
       name: "Spotify",
-      value: "Love Me Not",
+      value: "@luckyinfected",
       icon: "spotify.svg",
-      url: "https://open.spotify.com/track/2J0sUmePLC1OgeiRX1zsnS"
+      url: "https://open.spotify.com/user/31p4meczzzm372m3qx3cg7wqdsuy?si=1489856b27b94bcb"
     }
   ],
 
   spotify: {
-    trackUrl: "https://open.spotify.com/track/2J0sUmePLC1OgeiRX1zsnS",
+    trackUrl: "https://open.spotify.com/intl-pt/track/1UNEuG9DYOWiikf00ayr52?si=169740d575ea460e",
     compact: false
   },
 
