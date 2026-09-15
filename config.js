@@ -18,8 +18,8 @@ window.BIO_CONFIG = {
 
   profile: {
     name: "lucky",
-    username: "@lucky",
-    domain: "infblox.com.br",
+    username: "@luckyinfected",
+    domain: "luckyinfected",
     bioTitle: "lucky, its me",
     bioText: "algumas coisas não precisam de explicação.",
     avatar: "avatar.jpg",
@@ -69,7 +69,7 @@ window.BIO_CONFIG = {
     },
     {
       title: "Spotify",
-      subtitle: "lucky",
+      subtitle: "@luckyinfected",
       url: "https://open.spotify.com/",
       icon: "spotify.svg"
     },
